@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>waypoint.jsとCSSでスクロールして画面指定位置で要素をアニメーションさせる</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content=""/>
+        <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <nav>
+                    <div class="head-logo"><img src="img/logo.svg"></div>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+
+            <section id="marquee" class="hero">
+                <div class="video-box">
+                    <div class="text-box">
+                        <h1>すべての人に「つくる力」を</h1>
+                        <p>Adobe Creative Cloudなら、クリエイティブに必要なアプリとサービスがそろっているので、ひらめいたその場で、思い通りにアイデアを形にできます。</p>
+                    </div>
+                    <video class="video" muted autoplay playsinline>
+                        <source src="img/mv.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </section>
+
+            <section id="featured" class="animation-box">
+                <div class="container">
+                    <h2>Creative Cloudとは</h2>
+                    <p>写真や動画、デザインなどあらゆる制作に対応する数多くのアプリと、それらのアプリで利用できるフォントなどのアセット、共同作業をスムーズに行うための機能や、ストック素材やオンラインストレージ、さらに自分の作品を共有したり、他の人の作品から刺激を受けたりできるコミュニティが無料で利用できるサービスが組み合わさった、サブスクリプション型のクリエイティブ環境です。</p>
+                </div>
+            </section>
+
+            <section id="featured-plan" class="animation-box">
+                <div class="container">
+                    <h3>Creative Cloudコンプリートプラン</h3>
+                    <p>複数のアプリを利用したい方におすすめのお得なプランです。</p>
+                    <ul>
+                        <li>Photoshop、Illustrator、Premiere Proをはじめ、20以上のクリエイティブアプリが使い放題</li>
+                        <li>20,000以上のフォント、100GBのストレージなどのサービスも追加料金なく利用可能</li>
+                    </ul>
+                </div>
+            </section>
+            
+            <section id="featured-apps" class="animation-box">
+                <div class="container">
+                    <h3>主要なアプリ</h3>
+                </div>
+            </section>
+
+            <section id="dexter-FlexContainer-Items" class="animation-box">
+                <div class="container">
+                    <h3>アプリだけじゃない。Creative Cloud</h3>
+                    <p>アドビのCreative Cloudならではのサービスや機能で、制作がよりスムーズになるよう支援します。</p>
+                </div>
+            </section>
+
+            <section id="faq" class="animation-box">
+                <div class="container">
+                    <h3>よくある質問</h3>
+                </div>
+            </section>
+
+            <section id="plan" class="animation-box">
+                <div class="container">
+                    <h3>ニーズで選べる様々な購入プラン</h3>
+                    <p>使いたいアプリで選ぶ</p>
+                </div>
+            </section>
+
+            <section id="merch-bar" class="bg-black animation-box">
+                <div class="container">
+                    <h3>最適なCreative Cloudプランをお選びください</h3>
+                </div>
+            </section>
+
+            <section id="apps" class="animation-box">
+                <div class="container">
+                    <h3>すべての人に「つくる力」を</h3>
+                </div>
+            </section>
+            
+        </main>
+        
+        <footer class="bg-gray">
+            <div class="container">
+                <p class="copy">Copyright © 2022 Adobe. All rights reserved.</p>
+            </div>
+        </footer>
+
+        <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
+        <script>
+            $(function(){
+                $('.animation-box').waypoint(function(direction){
+                    var activePoint = $(this.element);
+                    if (direction === 'down') {　//scroll down
+                        activePoint.addClass('active');
+                    }
+                    else{ //scroll up
+                        activePoint.removeClass('active');
+                    }
+                },{offset : '70%'});
+            });
+        </script>
+    </body>
+</html>
+     
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
