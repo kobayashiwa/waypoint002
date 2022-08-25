@@ -1,0 +1,166 @@
+/** base **/
+html {
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+body {
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+	color: #2C2C2C;
+	background: #fff;
+	font-family: 'Assistant', "Segoe UI", "Helvetica Neue", HelveticaNeue, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Verdana, Meiryo, sans-serif;
+    font-feature-settings: "palt";
+	letter-spacing: .8px;
+	font-size: 16px;
+	font-weight: 400;
+}
+h1, h2, h3, h4, h5 {
+	font-weight: 400;
+}
+p {
+	line-height: 1.6;
+}
+a {
+	text-decoration: none;
+	color: #1a1a1a;
+}
+ul, li {
+	list-style: none;
+}
+.container {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 120px 0;
+}
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+h1, h2, h3 {
+	font-size: 1.75em;
+}
+
+/** header **/
+header {
+	position: fixed;
+	z-index: 10;
+	width: 100%;
+	height: 64px;
+	background: #fff;
+	border-bottom: 1px solid #EAEAEA;
+}
+header .container {
+	padding: 0;
+}
+nav {
+	height: 64px;
+	position: relative;
+}
+.head-logo {
+	width: 24px;
+	position: absolute;
+	top: 50%;
+	transform: translate(0 , -50%);
+}
+.head-logo img {
+	width: 100%;
+}
+
+/** main **/
+main {
+	width: 100%;
+	padding: 64px 0 0 0;
+}
+
+/** hero **/
+.hero {
+	position: relative;
+}
+.video-box {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 80vh;
+}
+.video {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.video-box .text-box {
+	position: relative;
+	z-index: 9;
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+	top: 50%;
+	-webkit-transform: translate(0, -50%);
+	-moz-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+}
+
+/** footer **/
+footer {
+	width: 100%;
+}
+footer .container {
+	padding: 40px 0;
+}
+.copy {
+	font-size: 0.75em;
+}
+
+/** waypoint **/
+.animation-box:nth-child(odd){
+    background: #fff;
+	color: #fff;
+}
+.animation-box{
+    transition:.5s;
+}
+.animation-box.active{
+    background: #fafafa;
+    color: #2C2C2C;
+}
+.bg-black.animation-box.active{
+    background: #000;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
