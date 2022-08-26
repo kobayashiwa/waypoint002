@@ -21,6 +21,7 @@ https://github.com/kobayashiwa/waypoint001
     </div><!--flex-bet-->
 </section>
 ```
+3行目、6行目「img-container」と「text-container」の2つがアニメーションさせる要素になるので、画面指定位置に来たらjQueryで「active」クラスを付ける。
 
 # 2.CSSの記述例
 
