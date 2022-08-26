@@ -24,5 +24,70 @@ https://github.com/kobayashiwa/waypoint001
 3行目、6行目「img-container」と「text-container」の2つがアニメーションさせる要素になるので、画面指定位置に来たらjQueryで「active」クラスを付ける。
 
 # 2.CSSの記述例
+```
+.sec{
+    margin-bottom: 120px;
+}
+ 
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+ 
+.col2{
+    width:40%;
+}
+ 
+.img-container{
+    overflow: hidden;
+    position: relative;
+}
+ 
+.img-container__img{
+    display: block;
+    opacity: 0;
+    position: relative;
+    transition:all .5s .3s ease; 
+    z-index: 0;
+}
+ 
+.img-container:before{
+    background: #333;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transform: translateX(-100%);
+    transition:all .8s 0s ease; 
+    width: 100%;
+    z-index: 1;     
+}
+ 
+.text-container{
+    opacity: 0;
+    padding:0 60px;
+    transition: all .8s .5s ease;
+}
+ 
+.text-container__title{
+    color: #333;
+    font-size: 60px;
+    font-weight: 700;
+}
+ 
+/*アニメーションするプロパティを設定します*/
+.img-container.active img{
+    opacity: 1;
+}
+ 
+.img-container.active:before{
+    transform: translateX(100%);        
+}
+ 
+.text-container.active{
+    opacity: 1;
+}
+```
 
 # 3.jQuery
