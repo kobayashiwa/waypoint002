@@ -97,4 +97,6 @@ https://github.com/kobayashiwa/waypoint001
 
 「img-container__img」と「text-container」はアルファをアニメーションさせるので「opacity: 0;」にしておく。(28行目、47行目)
 
+また、全て同時にアニメーションさせず、ずらしたいので「img-container__img」は「transition:all .5s .3s ease; 」で0.3秒遅らせて、「text-container」は「transition: all .8s .5s ease;」で0.5秒遅らせている。(41行目、49行目)
+
 # 3.jQuery
