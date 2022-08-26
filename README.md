@@ -89,5 +89,10 @@ https://github.com/kobayashiwa/waypoint001
     opacity: 1;
 }
 ```
+「img-container」と「text-container」の2つは、CSSのflexコンテナーで横並びにしている。
+22行目「img-container」に「overflow: hidden;」を指定し、はみ出した要素を見えなくする。
+
+スライドインするボックスは「img-container」のbefore擬似要素で設定。
+そして40行目「transform: translateX(-100%);」で左側の見えない位置に配置している。
 
 # 3.jQuery
