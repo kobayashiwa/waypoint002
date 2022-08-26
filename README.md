@@ -95,4 +95,6 @@ https://github.com/kobayashiwa/waypoint001
 スライドインするボックスは「img-container」のbefore擬似要素で設定。
 そして40行目「transform: translateX(-100%);」で左側の見えない位置に配置している。
 
+「img-container__img」と「text-container」はアルファをアニメーションさせるので「opacity: 0;」にしておく。(28行目、47行目)
+
 # 3.jQuery
