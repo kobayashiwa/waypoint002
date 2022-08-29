@@ -99,4 +99,11 @@ https://github.com/kobayashiwa/waypoint001
 
 また、全て同時にアニメーションさせず、ずらしたいので「img-container__img」は「transition:all .5s .3s ease; 」で0.3秒遅らせて、「text-container」は「transition: all .8s .5s ease;」で0.5秒遅らせている。(41行目、49行目)
 
+これで、画面指定位置に要素が来ると「active」クラスが付与されて、
+
+1. 「img-container」のbefore擬似要素がアニメーションスタート
+1.「img-container」内の「img-container__img」が0.3秒遅れてアニメーションスタート
+1.「text-container」が0.5秒遅れてアニメーションスタート
+となります。
+
 # 3.jQuery
