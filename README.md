@@ -133,3 +133,4 @@ $('.text-container').waypoint(function(direction){
     }       
 },{offset : '70%'});
 ```
+「img-container」と「text-container」に同じくクラスを付与する設定をしている。
