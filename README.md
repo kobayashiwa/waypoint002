@@ -110,3 +110,26 @@ https://github.com/kobayashiwa/waypoint001
 この何秒かけてアニメーションさせるか（duration）、何秒遅らせてアニメーションさせるか(delay)、アニメーションのイージング（timing-function）といった設定がセンスを問われる部分。不自然ではなく、見ていて気持ちいい感覚を身につける必要がある。
 
 # 3.jQuery
+```
+$('.img-container').waypoint(function(direction){
+    var activePoint = $(this.element);
+    //scroll down
+    if (direction === 'down') {
+        activePoint.addClass('active');
+    }
+    else{
+        activePoint.removeClass('active');
+    }
+},{offset : '70%'});
+ 
+$('.text-container').waypoint(function(direction){
+    var activePoint = $(this.element);
+    //scroll down
+    if (direction === 'down') {
+        activePoint.addClass('active');
+    }
+    else{
+        activePoint.removeClass('active');
+    }       
+},{offset : '70%'});
+```
