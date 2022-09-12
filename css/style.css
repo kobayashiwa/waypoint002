@@ -31,7 +31,7 @@ p {
 }
 a {
 	color: #006fbb;
-	text-decoration: none;
+	text-decoration: underline;
 }
 ul, li {
 	list-style: none;
