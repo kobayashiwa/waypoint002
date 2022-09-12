@@ -58,6 +58,8 @@ header {
 .head-logo {
 	width: 136px;
 	position: absolute;
+	top: 50%;
+	transform: translate(0 , -50%);
 }
 
 
@@ -78,11 +80,7 @@ nav {
 	height: 64px;
 	position: relative;
 }
-.head-logo {
-	
-	top: 50%;
-	transform: translate(0 , -50%);
-}
+
 .head-logo img {
 	width: 100%;
 }
