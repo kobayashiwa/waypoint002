@@ -55,8 +55,11 @@ header {
 	background: #fff;
 	position: relative;
 }
+header .container {
+	padding: 0 4%;
+}
 .head-logo {
-	width: 136px;
+	width: 108px;
 	position: absolute;
 	top: 50%;
 	transform: translate(0 , -50%);
