@@ -54,6 +54,9 @@ header {
 	height: 54px;
 	background: #fff;
 }
+.head_logo {
+	width: 136px;
+}
 
 
 
@@ -74,7 +77,6 @@ nav {
 	position: relative;
 }
 .head-logo {
-	width: 24px;
 	position: absolute;
 	top: 50%;
 	transform: translate(0 , -50%);
