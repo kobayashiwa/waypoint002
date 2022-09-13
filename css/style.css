@@ -75,11 +75,6 @@ nav {
 
 
 
-nav {
-	
-	transition: all .5s;
-	padding-right: 95px;
-}
 nav ul {
 	padding: 0 0 0 137px;
 	justify-content: flex-start;
