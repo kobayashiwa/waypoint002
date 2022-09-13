@@ -59,7 +59,8 @@ header .container {
 	padding: 0 4%;
 }
 .head-logo {
-	width: 108px;
+	padding: 16px 6px 16px 10px;
+	width: 137px;
 	position: absolute;
 	top: 50%;
 	transform: translate(0 , -50%);
@@ -71,21 +72,47 @@ header .container {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 nav {
-	height: 64px;
-	position: relative;
+	height: 100%;
+	transition: all .5s;
+	padding-right: 95px;
 }
+nav ul {
+	padding: 0 0 0 137px;
+	justify-content: flex-start;
+	align-items: center;
+	height: 100%;
+}
+nav ul li {
+	height: 100%;
+	padding: 0 12px;
+}
+n{
+	display: inline-block;
+	font-size: 13px;
+	letter-spacing: 0.2rem;
+	font-weight: 600;
+	padding: 32px 0;
+	height: 100%;
+	color: #1B1919;
+	transition: all .5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
