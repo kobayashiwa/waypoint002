@@ -68,12 +68,15 @@ header .container {
 .head-logo img {
 	width: 100%;
 }
+nav {
+	height: 100%;
+}
 
 
 
 
 nav {
-	height: 100%;
+	
 	transition: all .5s;
 	padding-right: 95px;
 }
