@@ -77,13 +77,16 @@ nav ul {
 	align-items: center;
 	height: 100%;
 }
+nav ul li {
+	height: 100%;
+}
 
 
 
 
 
 nav ul li {
-	height: 100%;
+	
 	padding: 0 12px;
 }
 n{
