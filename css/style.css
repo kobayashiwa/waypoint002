@@ -81,6 +81,10 @@ nav ul li {
 	height: 100%;
 	padding: 0 16px;
 }
+nav ul li.nav_line::before {
+	content: '';
+	border: 2px solid #000;
+}
 nav ul li a {
 	position: relative;
 	display: inline-block;
