@@ -85,6 +85,7 @@ nav ul li a {
 	display: inline-block;
 	font-size: 13px;
 	padding: 16px 0;
+	height: 100%;
 }
 
 
@@ -95,7 +96,7 @@ n{
 	
 
 	
-	height: 100%;
+	
 	color: #1B1919;
 	transition: all .5s;
 }
