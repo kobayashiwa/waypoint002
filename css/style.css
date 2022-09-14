@@ -83,7 +83,7 @@ nav ul li {
 }
 nav ul li.nav_line::before {
 	content: '';
-	border: 2px solid #000;
+	border: 1px solid #2B2C33;
 }
 nav ul li a {
 	position: relative;
