@@ -115,6 +115,9 @@ nav ul li a::after{
 nav ul li a:hover::after {
 	transform: scale(1, 1);
 }
+.heading div {
+	background: #0078D4;
+}
 
 
 
