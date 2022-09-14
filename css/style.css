@@ -118,6 +118,9 @@ nav ul li a:hover::after {
 .heading div {
 	background: #0078D4;
 }
+h1 {
+	color: #fff;
+}
 
 
 
