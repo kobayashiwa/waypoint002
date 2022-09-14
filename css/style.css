@@ -98,6 +98,7 @@ nav ul li a {
 nav ul li.skype a {
 	padding: 10px 0 2px 0;
 	font-size: 18px;
+	font-weight: 700;
 }
 nav ul li a::after{
 	position: absolute;
