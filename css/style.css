@@ -115,6 +115,12 @@ nav ul li a::after{
 nav ul li a:hover::after {
 	transform: scale(1, 1);
 }
+/** main **/
+main {
+	width: 100%;
+	padding: 16px 0 0 0;
+}
+/** haeding **/
 .heading div {
 	background: #0078D4;
 	color: #fff;
@@ -142,15 +148,6 @@ nav ul li a:hover::after {
 
 
 
-
-
-
-
-/** main **/
-main {
-	width: 100%;
-	padding: 64px 0 0 0;
-}
 
 /** hero **/
 .hero {
