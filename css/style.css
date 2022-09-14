@@ -79,16 +79,13 @@ nav ul {
 }
 nav ul li {
 	height: 100%;
+	padding: 0 16px;
 }
 
 
 
 
 
-nav ul li {
-	
-	padding: 0 12px;
-}
 n{
 	display: inline-block;
 	font-size: 13px;
