@@ -83,6 +83,7 @@ nav ul li {
 }
 nav ul li a {
 	display: inline-block;
+	font-size: 13px;
 }
 
 
@@ -91,7 +92,7 @@ nav ul li a {
 
 n{
 	
-	font-size: 13px;
+	
 	letter-spacing: 0.2rem;
 	font-weight: 600;
 	padding: 32px 0;
