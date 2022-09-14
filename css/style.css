@@ -79,10 +79,11 @@ nav ul {
 }
 nav ul li {
 	height: 100%;
-	padding: 0 16px;
+	padding: 0 16px 0 0;
 }
 nav ul li.nav_line::before {
 	content: '';
+	margin: 0 16px;
 	border: 1px solid #2B2C33;
 }
 nav ul li a {
