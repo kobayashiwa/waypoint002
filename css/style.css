@@ -81,7 +81,7 @@ nav ul li {
 	height: 100%;
 	padding: 0 16px 0 0;
 }
-nav ul li.nav_line::before {
+nav ul li.skype::before {
 	content: '';
 	margin: 0 16px;
 	border: 1px solid #2B2C33;
@@ -94,6 +94,10 @@ nav ul li a {
 	height: 100%;
 	color: #2B2C33;
 	text-decoration: none;
+}
+nav ul li.skype a {
+	padding: 10px 0 2px 0;
+	font-size: 18px;
 }
 nav ul li a::after{
 	position: absolute;
