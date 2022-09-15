@@ -123,6 +123,7 @@ main {
 /** haeding **/
 .heading div {
 	background: #0078D4;
+	border-radius: 0 20px 20px 20px;
 	color: #fff;
 	padding: 0 15px;
 	text-align: center;
