@@ -138,6 +138,9 @@ main {
 	font-size: 15px;
 }
 /** country **/
+.country {
+	text-align: center;
+}
 .country h2 {
 	padding-top: 60px;
 }
