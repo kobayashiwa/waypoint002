@@ -139,6 +139,10 @@ main {
 	padding-top: 60px;
 }
 
+/** number **/
+.number .box {
+	background: #F2F2F2;
+}
 
 
 
@@ -158,8 +162,6 @@ main {
 
 
 
-
-/** hero **/
 .hero {
 	position: relative;
 }
