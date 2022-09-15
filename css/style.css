@@ -148,6 +148,7 @@ main {
 /** number **/
 .number .box {
 	background: #F2F2F2;
+	padding: 20px 0;
 }
 /** about **/
 .about h3 {
