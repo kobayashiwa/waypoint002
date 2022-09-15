@@ -130,6 +130,7 @@ main {
 .heading h1 {
 	padding: 30px 0 10px 0;
 	font-size: 36px;
+	font-weight: 700;
 }
 .heading p {
 	padding-bottom: 50px;
