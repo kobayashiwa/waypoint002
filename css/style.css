@@ -144,28 +144,28 @@ main {
 .number .box {
 	background: #F2F2F2;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.hero {
-	position: relative;
+/** about **/
+.about h3 {
+	padding-top: 60px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .video-box {
 	position: relative;
 	overflow: hidden;
