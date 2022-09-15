@@ -150,6 +150,9 @@ main {
 	background: #F2F2F2;
 	padding: 20px 0;
 }
+.number h2 {
+	font-size: 28px;
+}
 /** about **/
 .about h3 {
 	padding-top: 60px;
@@ -172,17 +175,6 @@ main {
 
 
 
-
-.video {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	min-width: 100%;
-	min-height: 100%;
-	-webkit-transform: translate(-50%, -50%);
-	-moz-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-}
 .video-box .text-box {
 	position: relative;
 	z-index: 9;
