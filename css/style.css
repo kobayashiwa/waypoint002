@@ -160,6 +160,7 @@ main {
 }
 .country li p {
 	font-size: 15px;
+	padding: 5px 0 11px 0;
 }
 .country .button {
 	padding-top: 20px;
