@@ -167,8 +167,8 @@ main {
 	width: 50%;
 }
 /** about **/
-.about h3 {
-	padding-top: 60px;
+.about {
+	padding: 60px 10px 0 10px;
 }
 /** coution **/
 .coution {
