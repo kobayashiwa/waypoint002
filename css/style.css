@@ -182,6 +182,10 @@ main {
 	border: 1px solid #0078D4;
 	border-radius: 24px;
 }
+.country button:hover {
+	background: #0078D4;
+	color: #fff;
+}
 
 /** number **/
 .number .box {
