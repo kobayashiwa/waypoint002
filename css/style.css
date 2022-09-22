@@ -147,6 +147,9 @@ main {
 	font-size: 28px;
 	font-weight: 700;
 }
+.country .button {
+	padding-top: 20px;
+}
 
 /** number **/
 .number .box {
