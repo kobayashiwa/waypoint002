@@ -160,6 +160,9 @@ main {
 	text-decoration: none;
 	color: #2B2C33;
 }
+.country li a:hover {
+	text-decoration: underline;
+}
 .country li p {
 	font-size: 15px;
 	padding: 5px 0 11px 0;
