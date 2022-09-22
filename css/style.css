@@ -153,6 +153,9 @@ main {
 .country li {
 	flex-basis: 16.6%;
 }
+.country li a {
+	text-decoration: none;
+}
 .country li p {
 	font-size: 15px;
 }
