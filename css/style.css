@@ -171,6 +171,8 @@ main {
 	background: #fff;
 	font-size: 13px;
 	font-weight: 700;
+	position: relative;
+	color: #0078D4;
 }
 
 /** number **/
