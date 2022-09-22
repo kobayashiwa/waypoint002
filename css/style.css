@@ -175,6 +175,9 @@ main {
 .number .l-box div {
 	max-width: 300px;
 }
+.number .l-box div img {
+	width: 100%;
+}
 .number .r-box {
 	width: 50%;
 }
