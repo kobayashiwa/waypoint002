@@ -220,6 +220,9 @@ main {
 .number .r-box li {
 	padding: 0 0 0 25px;
 }
+.number_intro {
+	margin-bottom: 30px;
+}
 /** about **/
 .about {
 	text-align: center;
