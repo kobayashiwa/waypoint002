@@ -177,6 +177,7 @@ main {
 	color: #0078D4;
 	padding: 12px 32px;
 	border: 1px solid #0078D4;
+	border-radius: 24px;
 }
 
 /** number **/
