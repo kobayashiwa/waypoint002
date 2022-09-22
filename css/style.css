@@ -150,6 +150,9 @@ main {
 .country .flags {
 	margin-top: 40px;
 }
+.country li {
+	flex-basis: 16.6%;
+}
 .country .button {
 	padding-top: 20px;
 }
