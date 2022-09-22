@@ -154,6 +154,12 @@ main {
 .number h2 {
 	font-size: 28px;
 }
+.number .l-box {
+	width: 50%;
+}
+.number .r-box {
+	width: 50%;
+}
 /** about **/
 .about h3 {
 	padding-top: 60px;
