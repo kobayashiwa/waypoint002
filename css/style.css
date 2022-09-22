@@ -147,6 +147,9 @@ main {
 	font-size: 28px;
 	font-weight: 700;
 }
+.country .flags {
+	margin-top: 40px;
+}
 .country .button {
 	padding-top: 20px;
 }
