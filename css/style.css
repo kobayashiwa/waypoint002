@@ -177,9 +177,14 @@ main {
 }
 .number .l-box {
 	width: 50%;
+	position: relative;
 }
 .number .l-box div {
 	max-width: 300px;
+	position: relative;
+	top:50%;
+	left:50%;
+	transform: translate(-50% , -50%);
 }
 .number .l-box div img {
 	width: 100%;
