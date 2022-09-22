@@ -153,6 +153,8 @@ main {
 .country li {
 	flex-basis: 16.6%;
 	padding: 40px 0 0 0;
+	margin: -1px 0 0 -1px;
+	border: 1px solid #ededed;
 }
 .country li a {
 	text-decoration: none;
