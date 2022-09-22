@@ -186,6 +186,7 @@ main {
 }
 /** about **/
 .about {
+	text-align: center;
 	padding: 60px 10px 0 10px;
 }
 /** coution **/
