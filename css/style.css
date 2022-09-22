@@ -150,6 +150,7 @@ main {
 /** number **/
 .number .box {
 	background: #F2F2F2;
+	margin: 15px 10px;
 	padding: 20px 0;
 }
 .number h2 {
