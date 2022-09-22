@@ -153,6 +153,9 @@ main {
 .country li {
 	flex-basis: 16.6%;
 }
+.country li p {
+	font-size: 15px;
+}
 .country .button {
 	padding-top: 20px;
 }
