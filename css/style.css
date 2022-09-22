@@ -155,6 +155,7 @@ main {
 }
 .country li a {
 	text-decoration: none;
+	color: #2B2C33;
 }
 .country li p {
 	font-size: 15px;
@@ -206,10 +207,6 @@ footer {
 
 
 
-
-footer .container {
-	padding: 40px 0;
-}
 .copy {
 	font-size: 0.75em;
 }
