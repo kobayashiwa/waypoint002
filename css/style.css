@@ -164,8 +164,11 @@ main {
 	font-size: 15px;
 	padding: 5px 0 11px 0;
 }
-.country .button {
+.country .btn {
 	padding-top: 20px;
+}
+.country button {
+	background: #fff;
 }
 
 /** number **/
