@@ -198,6 +198,7 @@ main {
 }
 .number .r-box {
 	width: 50%;
+	padding: 0 10px;
 }
 /** about **/
 .about {
