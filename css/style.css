@@ -173,8 +173,10 @@ main {
 	font-weight: 700;
 	position: relative;
 	display: inline-block;
+	cursor: pointer;
 	color: #0078D4;
 	padding: 12px 32px;
+	border: 1px solid #0078D4;
 }
 
 /** number **/
