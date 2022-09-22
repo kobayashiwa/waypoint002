@@ -169,6 +169,9 @@ main {
 .number .l-box {
 	width: 50%;
 }
+.number .l-box div {
+	max-width: 300px;
+}
 .number .r-box {
 	width: 50%;
 }
