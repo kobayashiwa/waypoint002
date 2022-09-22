@@ -232,6 +232,9 @@ main {
 	font-size: 28px;
 	font-weight: 700;
 }
+.about ul {
+	margin-top: 30px;
+}
 /** coution **/
 .coution {
 	padding: 3em 2.5em 0 2.5em;
