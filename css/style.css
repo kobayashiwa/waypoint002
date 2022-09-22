@@ -214,6 +214,9 @@ main {
 	text-align: center;
 	padding: 60px 10px 0 10px;
 }
+.about h3 {
+	font-size: 28px;
+}
 /** coution **/
 .coution {
 	padding: 3em 2.5em 0 2.5em;
