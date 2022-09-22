@@ -170,6 +170,7 @@ main {
 .country button {
 	background: #fff;
 	font-size: 13px;
+	font-weight: 700;
 }
 
 /** number **/
