@@ -171,6 +171,7 @@ main {
 /** number **/
 .number .box {
 	background: #F2F2F2;
+	border-radius: 0 20px 20px 20px;
 	margin: 15px 10px;
 	padding: 20px 0;
 }
