@@ -191,6 +191,7 @@ main {
 	padding: 20px 10px;
 }
 .number h2 {
+	margin-bottom: 30px;
 	font-size: 28px;
 	font-weight: 700;
 }
