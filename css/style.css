@@ -172,7 +172,9 @@ main {
 	font-size: 13px;
 	font-weight: 700;
 	position: relative;
+	display: inline-block;
 	color: #0078D4;
+	padding: 12px 32px;
 }
 
 /** number **/
