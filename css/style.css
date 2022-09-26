@@ -217,6 +217,9 @@ main {
 	width: 50%;
 	padding: 0 25px 0 10px;
 }
+.number .r-box li {
+	padding: 15px 0;
+}
 .number_intro {
 	margin-bottom: 30px;
 }
