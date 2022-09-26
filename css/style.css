@@ -199,6 +199,9 @@ main {
 	font-size: 28px;
 	font-weight: 700;
 }
+.number h3 {
+	margin-bottom: 14px;
+}
 .number .l-box {
 	width: 50%;
 	position: relative;
