@@ -35,6 +35,7 @@ a {
 }
 ul, li {
 	list-style: none;
+	line-height: 1;
 }
 .container {
 	max-width: 1600px;
@@ -277,8 +278,9 @@ footer .footer_menu p {
 	font-weight: 700;
 	color: #616161;
 }
-footer .footer_menu li {
+footer .footer_menu li a {
 	font-size: 11px;
+	text-decoration: none;
 }
 
 
