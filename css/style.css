@@ -246,6 +246,7 @@ main {
 }
 .about .about_icon {
 	width: 40px;
+	margin: 0 auto;
 }
 .about .btn {
 	padding: 15px 0 0 0;
