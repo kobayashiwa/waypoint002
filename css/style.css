@@ -257,6 +257,9 @@ footer .footer_menu {
 	padding: 0 12px;
 	flex-basis: 16.6%;
 }
+footer .footer_menu p {
+	font-size: 24px;
+}
 
 
 
