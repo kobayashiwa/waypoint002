@@ -240,6 +240,9 @@ main {
 .about ul {
 	margin-top: 30px;
 }
+.about .btn {
+	padding: 15px 0 0 0;
+}
 /** coution **/
 .coution {
 	padding: 3em 2.5em 0 2.5em;
