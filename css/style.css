@@ -244,6 +244,9 @@ main {
 	flex-basis: 33.3%;
 	padding: 0 21px 42px 21px;
 }
+.about .about_icon {
+	width: 40px;
+}
 .about .btn {
 	padding: 15px 0 0 0;
 }
