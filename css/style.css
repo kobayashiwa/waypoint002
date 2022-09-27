@@ -248,6 +248,9 @@ main {
 	width: 40px;
 	margin: 0 auto;
 }
+.about .about_icon img {
+	width: 100%;
+}
 .about .btn {
 	padding: 15px 0 0 0;
 }
