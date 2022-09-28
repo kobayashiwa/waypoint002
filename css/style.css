@@ -280,6 +280,9 @@ footer .footer_menu p {
 	font-weight: 700;
 	color: #616161;
 }
+footer .footer_menu li {
+	padding: 8px 0;
+}
 footer .footer_menu li a {
 	font-size: 11px;
 	text-decoration: none;
