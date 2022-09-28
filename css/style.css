@@ -250,6 +250,9 @@ main {
 	flex-basis: 33.3%;
 	padding: 0 21px 42px 21px;
 }
+.about li p {
+	font-size: 15px;
+}
 .about .about_icon {
 	width: 40px;
 	margin: 0 auto;
