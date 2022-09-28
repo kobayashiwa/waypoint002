@@ -251,6 +251,7 @@ main {
 .about .about_icon {
 	width: 40px;
 	margin: 0 auto;
+	padding: 0 0 20px 0;
 }
 .about .about_icon img {
 	width: 100%;
