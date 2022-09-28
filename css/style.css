@@ -267,13 +267,13 @@ main {
 }
 .about button {
 	position: relative;
-	background: #222;
+	display: inline-block;
+	background: #0078D4;
 }
 .about .but {
-	background: #fff;
 	font-size: 13px; 
 	font-weight: 700;
-	display: inline-block;
+	
 	cursor: pointer;
 	color: #0078D4;
 	padding: 12px 32px;
