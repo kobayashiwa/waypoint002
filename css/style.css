@@ -252,6 +252,7 @@ main {
 }
 .about li p {
 	font-size: 15px;
+	text-align: left;
 }
 .about .about_icon {
 	width: 40px;
