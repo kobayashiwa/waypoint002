@@ -309,6 +309,7 @@ footer .footer_menu li a {
 .copy {
 	font-size: 0.75em;
 	padding: 30px 5% 16px;
+	text-align: right;
 }
 
 /** waypoint **/
