@@ -272,9 +272,10 @@ main {
 	background: #0078D4;
 	border: 1px solid #0078D4;
 	color: #fff;
+	font-size: 18px; 
 }
 .about .but {
-	font-size: 13px; 
+	
 	font-weight: 700;
 	
 	
