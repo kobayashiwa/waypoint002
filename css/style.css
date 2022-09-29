@@ -278,6 +278,9 @@ main {
 	margin-bottom: 20px;
 	border-radius: 34px;
 }
+.about button:hover {
+	background: #004e8c;
+}
 /** coution **/
 .coution {
 	padding: 3em 2.5em 0 2.5em;
