@@ -122,6 +122,9 @@ main {
 	padding: 16px 0 0 0;
 }
 /** haeding **/
+.heading {
+	padding: 0 15px;
+}
 .heading div {
 	background: #0078D4;
 	border-radius: 0 20px 20px 20px;
