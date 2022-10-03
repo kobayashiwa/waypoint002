@@ -338,9 +338,6 @@ footer .footer_menu li a {
 		flex-basis: 33.3%;
 	}
 
-	.p-alert_header p {
-		font-size: 12px;
-	}
 	.p-alert_header p::after{
 		width: 14px;
 		height: 14px;
@@ -354,11 +351,6 @@ footer .footer_menu li a {
 	}
 	.top-header {
 		height: 63px;
-	}
-	.head-logo {
-		width: 172px;
-		top: 50%;
-		left: 30px;
 	}
 	nav ul li {
 		padding: 0 10px;
