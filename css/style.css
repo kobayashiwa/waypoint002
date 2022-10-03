@@ -333,9 +333,11 @@ footer .footer_menu li a {
 	color: #fff;
 }
 @media screen and (max-width: 1024px) {
-	main {
-		background: #111111;
+	footer .footer_menu {
+		padding: 0 12px;
+		flex-basis: 33.3%;
 	}
+
 	.p-alert_header p {
 		font-size: 12px;
 	}
