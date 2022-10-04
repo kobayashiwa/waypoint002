@@ -344,31 +344,9 @@ footer .footer_menu li a {
 	}
 
 
-	.p-alert_body p {
-		left: 32px;
-		font-size: 10px;
-	}
-	.top-header {
-		height: 63px;
-	}
-	nav ul li.sub a {
-		padding: 24px 0 0 24px;
-	}
-	.toggle {
-		top: 55px;
-		width: 63px;
-		height: 63px;
-	  }
-	.toggle p {
-		font-size: 10px;
-		bottom: 10px;
-	}
-	.toggle::before, .toggle::after, .toggle span {
-		width: 22px;
-		height: 2px;
-		background: #fff;
-		transition: .2s;
-	}
+
+
+
 	.toggle::before {
 		left: 25px;
 	}
@@ -394,6 +372,41 @@ footer .footer_menu li a {
 		width: 50%;
 	}
 }
+@media screen and (max-width: 962px) {
+	.heading {
+		background: #666;
+	}
+
+
+
+
+
+	.toggle::before {
+		left: 25px;
+	}
+	.toggle::after {
+		right: 25px;
+	}
+	.toggle span:nth-of-type(-n+3) {
+		left: 21px;
+	}
+	.toggle span:nth-of-type(1) {
+		top: 16px;	
+	}
+	.toggle span:nth-of-type(2) {
+		top: 24px;	
+	}
+	.toggle span:nth-of-type(3) {
+		top: 32px;
+	}
+	.sitemap-header nav ul li.sub a {
+		padding: 32px 0 0 24px;
+	}
+	.sitemap-col {
+		width: 50%;
+	}
+}
+
 
 
 
