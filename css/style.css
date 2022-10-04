@@ -244,6 +244,7 @@ main {
 .about h4 {
 	font-size: 24px;
 	font-weight: 700;
+	line-height: 1.2;
 	padding: 0 0 10px 0;
 }
 .about ul {
