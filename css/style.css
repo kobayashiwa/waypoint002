@@ -347,9 +347,7 @@ footer .footer_menu li a {
 
 
 
-	.toggle::before {
-		left: 25px;
-	}
+
 	.toggle::after {
 		right: 25px;
 	}
@@ -373,9 +371,10 @@ footer .footer_menu li a {
 	}
 }
 @media screen and (max-width: 962px) {
-	.heading {
-		background: #666;
+	.country li {
+		flex-basis: 33.3%;
 	}
+
 
 
 
