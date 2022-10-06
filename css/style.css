@@ -349,9 +349,7 @@ footer .footer_menu li a {
 
 
 	
-	.toggle span:nth-of-type(1) {
-		top: 16px;	
-	}
+
 	.toggle span:nth-of-type(2) {
 		top: 24px;	
 	}
@@ -370,7 +368,7 @@ footer .footer_menu li a {
 		flex-basis: 33.3%;
 	}
 
-
+　
 
 
 
@@ -401,9 +399,7 @@ footer .footer_menu li a {
 	}
 }
 @media screen and (max-width: 859px) {
-	.heading div {
-		background: #222;
-	}
+
 
 
 
