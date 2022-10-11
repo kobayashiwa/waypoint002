@@ -354,12 +354,7 @@ footer .footer_menu li a {
 
 
 
-	.toggle::after {
-		right: 25px;
-	}
-	.toggle span:nth-of-type(-n+3) {
-		left: 21px;
-	}
+
 	.toggle span:nth-of-type(1) {
 		top: 16px;	
 	}
