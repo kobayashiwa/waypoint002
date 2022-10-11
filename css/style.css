@@ -342,20 +342,6 @@ footer .footer_menu li a {
 		padding: 0 12px;
 		flex-basis: 33.3%;
 	}
-
-
-
-
-
-
-	
-
-
-
-
-	.sitemap-col {
-		width: 50%;
-	}
 }
 @media screen and (max-width: 962px) {
 	.country li {
@@ -367,9 +353,7 @@ footer .footer_menu li a {
 
 
 
-	.toggle::before {
-		left: 25px;
-	}
+
 	.toggle::after {
 		right: 25px;
 	}
