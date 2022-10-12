@@ -116,6 +116,9 @@ nav ul li a::after{
 nav ul li a:hover::after {
 	transform: scale(1, 1);
 }
+.toggle, .toggle-menu {
+	display: none;
+}
 /** main **/
 main {
 	width: 100%;
