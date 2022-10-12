@@ -352,16 +352,17 @@ footer .footer_menu li a {
 	}
 }
 @media screen and (max-width: 859px) {
-
-
-
-
-
-
-
-	.toggle::before {
-		left: 25px;
+	.toggle, .toggle span {
+		display: inline-block;
 	}
+
+
+
+
+
+
+
+
 	.toggle::after {
 		right: 25px;
 	}
