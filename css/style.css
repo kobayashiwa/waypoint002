@@ -119,6 +119,9 @@ nav ul li a:hover::after {
 .toggle, .toggle-menu {
 	display: none;
 }
+.toggle {
+	position: fixed;
+}
 /** main **/
 main {
 	width: 100%;
@@ -362,10 +365,7 @@ footer .footer_menu li a {
 
 
 
-
-	.toggle::after {
-		right: 25px;
-	}
+	
 	.toggle span:nth-of-type(-n+3) {
 		left: 21px;
 	}
