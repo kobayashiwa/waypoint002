@@ -121,6 +121,7 @@ nav ul li a:hover::after {
 }
 .toggle {
 	position: fixed;
+	top: 33px;
 }
 /** main **/
 main {
@@ -366,9 +367,8 @@ footer .footer_menu li a {
 
 
 	
-	.toggle span:nth-of-type(-n+3) {
-		left: 21px;
-	}
+
+	
 	.toggle span:nth-of-type(1) {
 		top: 16px;	
 	}
