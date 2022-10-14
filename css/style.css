@@ -69,25 +69,25 @@ header .container {
 .head-logo img {
 	width: 100%;
 }
-nav {
+nav.global {
 	height: 100%;
 }
-nav ul {
+nav.global ul {
 	padding: 0 0 0 143px;
 	justify-content: flex-start;
 	align-items: center;
 	height: 100%;
 }
-nav ul li {
+nav.global ul li {
 	height: 100%;
 	padding: 0 16px 0 0;
 }
-nav ul li.skype::before {
+nav.global ul li.skype::before {
 	content: '';
 	margin: 0 16px;
 	border: 1px solid #2B2C33;
 }
-nav ul li a {
+nav.global ul li a {
 	position: relative;
 	display: inline-block;
 	font-size: 13px;
@@ -96,12 +96,12 @@ nav ul li a {
 	color: #2B2C33;
 	text-decoration: none;
 }
-nav ul li.skype a {
+nav.global ul li.skype a {
 	padding: 14px 0 2px 0;
 	font-size: 18px;
 	font-weight: 700;
 }
-nav ul li a::after{
+nav.global ul li a::after{
 	position: absolute;
 	bottom: -4px;
 	left: 0;
@@ -113,7 +113,7 @@ nav ul li a::after{
 	transform-origin: left top;
 	transition: transform .3s;
 }
-nav ul li a:hover::after {
+nav.global ul li a:hover::after {
 	transform: scale(1, 1);
 }
 .toggle, .toggle-menu {
@@ -368,11 +368,7 @@ footer .footer_menu li a {
 
 	
 
-
 	
-	.toggle span:nth-of-type(2) {
-		top: 24px;	
-	}
 	.toggle span:nth-of-type(3) {
 		top: 32px;
 	}
