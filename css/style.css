@@ -119,10 +119,6 @@ nav.global ul li a:hover::after {
 .toggle, .toggle-menu {
 	display: none;
 }
-.toggle {
-	position: fixed;
-	top: 33px;
-}
 /** main **/
 main {
 	width: 100%;
@@ -362,19 +358,23 @@ footer .footer_menu li a {
 	.toggle, .toggle span {
 		display: inline-block;
 	}
-
-
-
-
-
-
-
-	
-
-	
-	.sitemap-header nav ul li.sub a {
-		padding: 32px 0 0 24px;
+	.toggle {
+		position: fixed;
+		top: 33px;
+		right: 24px;
 	}
+	.toggle:focus:not(:focus-visible) {
+		outline: none;
+	}
+
+
+
+
+
+
+
+	
+
 	.sitemap-col {
 		width: 50%;
 	}
