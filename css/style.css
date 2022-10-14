@@ -364,6 +364,7 @@ footer .footer_menu li a {
 		right: 24px;
 		width: 46px;
 		height: 27px;
+		z-index: 3;
 	}
 	.toggle:focus:not(:focus-visible) {
 		outline: none;
@@ -373,6 +374,7 @@ footer .footer_menu li a {
 	}
 	.toggle::before, .toggle::after, .toggle span {
 		position: absolute;
+		width: 100%;
 	}	
 }
 
