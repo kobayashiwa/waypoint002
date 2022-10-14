@@ -366,6 +366,7 @@ footer .footer_menu li a {
 		height: 27px;
 		z-index: 3;
 		background: none;
+		border: none;
 	}
 	.toggle:focus:not(:focus-visible) {
 		outline: none;
@@ -377,6 +378,7 @@ footer .footer_menu li a {
 		position: absolute;
 		width: 100%;
 		height: 2px;
+		background: #fff;
 	}	
 }
 
