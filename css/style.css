@@ -362,10 +362,15 @@ footer .footer_menu li a {
 		position: fixed;
 		top: 33px;
 		right: 24px;
+		width: 46px;
 	}
 	.toggle:focus:not(:focus-visible) {
 		outline: none;
 	}
+	.toggle::before, .toggle::after {
+		content: '';
+	}
+
 
 
 
@@ -374,10 +379,6 @@ footer .footer_menu li a {
 
 
 	
-
-	.sitemap-col {
-		width: 50%;
-	}
 }
 
 
