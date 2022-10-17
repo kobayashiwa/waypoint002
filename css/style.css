@@ -383,7 +383,14 @@ footer .footer_menu li a {
 		background: #fff;
 		border-radius: 2px;
 		transition: .2s;
-	}	
+	}
+	.toggle.bisible::before, .toggle.bisible::after, .toggle.bisible span {
+		background: #495057;
+	}
+	.toggle::before {
+		top: -3px;
+		
+	}
 }
 
 
