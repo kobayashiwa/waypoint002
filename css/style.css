@@ -389,6 +389,7 @@ footer .footer_menu li a {
 	}
 	.toggle::before {
 		top: -3px;
+		left: 8px;
 		
 	}
 }

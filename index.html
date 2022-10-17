@@ -320,6 +320,17 @@
         <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
         <script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
         <script>
+            $(function() {
+            $('.toggle').click(function() {
+                $(this).toggleClass('active');
+                
+                if ($(this).hasClass('active')) {
+                    $('.toggle-menu').addClass('active');
+                } else {
+                    $('.toggle-menu').removeClass('active');
+                }
+            });
+        });
             $(function(){
                 $('.animation-box').waypoint(function(direction){
                     var activePoint = $(this.element);
