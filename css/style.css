@@ -368,6 +368,7 @@ footer .footer_menu li a {
 		background: none;
 		border: none;
 		appearance: none;
+		cursor: pointer;
 	}
 	.toggle:focus:not(:focus-visible) {
 		outline: none;
@@ -381,6 +382,7 @@ footer .footer_menu li a {
 		height: 2px;
 		background: #fff;
 		border-radius: 2px;
+		transition: .2s;
 	}	
 }
 
