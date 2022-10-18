@@ -353,9 +353,7 @@ footer .footer_menu li a {
 }
 @media screen and (max-width: 859px) {
 	.head-logo {
-		padding: 16px 6px 16px 10px;
-		width: 137px;
-		position: absolute;
+		width: 116px;
 		top: 50%;
 		left: 50%;
 		transform: translate(-50% , -50%);
@@ -401,6 +399,8 @@ footer .footer_menu li a {
 		transform-origin: 0 0;
 		transform: rotate(45deg) scaleX(0);
 		transition-delay: 0s;	
+	}
+	.toggle::after {
 	}
 }
 
