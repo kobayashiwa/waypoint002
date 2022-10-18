@@ -352,6 +352,14 @@ footer .footer_menu li a {
 	}
 }
 @media screen and (max-width: 859px) {
+	.head-logo {
+		padding: 16px 6px 16px 10px;
+		width: 137px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(0 , -50%);
+	}
 	nav.global {
 		display: none;
 	}
@@ -391,6 +399,7 @@ footer .footer_menu li a {
 		top: -3px;
 		left: 8px;
 		transform-origin: 0 0;
+		transform: rotate(45deg) scaleX(0);
 		
 	}
 }
