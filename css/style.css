@@ -388,7 +388,8 @@ footer .footer_menu li a {
 	}
 	.toggle::before, .toggle::after, .toggle span {
 		position: absolute;
-		width: 100%;
+		display: inline;
+		width: 16px;
 		height: 2px;
 		background: #000;
 		border-radius: 2px;
@@ -409,6 +410,7 @@ footer .footer_menu li a {
 		left: 8px;
 		transform-origin: 0 100%;
 		transform: rotate(-45deg) scaleX(0);
+		transition-delay: 0s;
 	}
 }
 
