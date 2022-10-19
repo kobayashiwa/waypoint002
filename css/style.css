@@ -373,6 +373,7 @@ footer .footer_menu li a {
 		left: 3px;
 		width: 48px;
 		height: 48px;
+		padding: 16px;
 		z-index: 3;
 		background: none;
 		border: none;
@@ -407,6 +408,7 @@ footer .footer_menu li a {
 		bottom: -3px;
 		left: 8px;
 		transform-origin: 0 100%;
+		transform: rotate(-45deg) scaleX(0);
 	}
 }
 
