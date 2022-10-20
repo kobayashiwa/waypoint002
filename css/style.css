@@ -413,6 +413,7 @@ footer .footer_menu li a {
 		transition-delay: 0s;
 	}
 	.toggle span:nth-of-type(1) {
+		top: 0;
 	}
 
 
@@ -420,6 +421,7 @@ footer .footer_menu li a {
 
 	.toggle-menu {
 		display: block;
+		opacity: 0;
 	}
 }
 
