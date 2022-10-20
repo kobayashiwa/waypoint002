@@ -414,6 +414,7 @@ footer .footer_menu li a {
 	}
 	.toggle span:nth-of-type(1) {
 		top: 0;
+		right: 0;
 	}
 
 
@@ -422,6 +423,9 @@ footer .footer_menu li a {
 	.toggle-menu {
 		display: block;
 		opacity: 0;
+	}
+	.toggle-menu.active {
+		opacity: 1;
 	}
 }
 
