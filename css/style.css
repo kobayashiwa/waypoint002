@@ -412,6 +412,15 @@ footer .footer_menu li a {
 		transform: rotate(-45deg) scaleX(0);
 		transition-delay: 0s;
 	}
+	.toggle span:nth-of-type(1) {
+	}
+
+
+
+
+	.toggle-menu {
+		display: block;
+	}
 }
 
 
