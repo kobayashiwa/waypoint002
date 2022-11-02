@@ -414,8 +414,9 @@ footer .footer_menu li a {
 	}
 	.toggle span:nth-of-type(1) {
 		top: 16;
-		right: 0;
+		right: 16;
 		transform-origin: 0 0;
+		transition-delay: .3s;
 	}
 
 
