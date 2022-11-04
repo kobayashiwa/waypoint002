@@ -422,10 +422,11 @@ footer .footer_menu li a {
 		top: 22px;
 		right: 16px;
 		transform-origin: 50% 50%;
+		transition-delay: .3s;
 	}
-
 	.toggle span:nth-of-type(3) {
 		top: 28px;
+		right: 16px;
 	}
 
 
