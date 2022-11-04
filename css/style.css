@@ -399,7 +399,7 @@ footer .footer_menu li a {
 		background: #000;
 	}
 	.toggle::before {
-		top: -3px;
+		top: 18px;
 		left: 8px;
 		transform-origin: 0 0;
 		transform: rotate(45deg) scaleX(0);
@@ -433,6 +433,9 @@ footer .footer_menu li a {
 	.toggle.active::before {
 		transform: rotate(45deg) scaleX(1);
 		transition-delay: .3s;
+	}
+	.toggle.active::after {
+		transform: rotate(-45deg) scaleX(1);
 	}
 
 
