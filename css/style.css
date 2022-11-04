@@ -389,7 +389,7 @@ footer .footer_menu li a {
 	.toggle::before, .toggle::after, .toggle span {
 		position: absolute;
 		display: inline;
-		width: 16px;
+		width: 18px;
 		height: 2px;
 		background: #000;
 		border-radius: 2px;
@@ -428,6 +428,7 @@ footer .footer_menu li a {
 		top: 28px;
 		right: 16px;
 		transform-origin: 100% 0;
+		transition-delay: .3s;
 	}
 
 
