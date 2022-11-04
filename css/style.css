@@ -421,6 +421,11 @@ footer .footer_menu li a {
 	.toggle span:nth-of-type(2) {
 		top: 22px;
 		right: 16px;
+		transform-origin: 50% 50%;
+	}
+
+	.toggle span:nth-of-type(3) {
+		top: 28px;
 	}
 
 
