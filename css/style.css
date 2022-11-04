@@ -390,7 +390,7 @@ footer .footer_menu li a {
 		position: absolute;
 		display: inline;
 		width: 18px;
-		height: 2px;
+		height: 1px;
 		background: #000;
 		border-radius: 2px;
 		transition: .2s;
@@ -429,6 +429,9 @@ footer .footer_menu li a {
 		right: 16px;
 		transform-origin: 100% 0;
 		transition-delay: .3s;
+	}
+	.toggle.active::before {
+		transform: rotate(45deg) scaleX(1);
 	}
 
 
