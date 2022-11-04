@@ -373,7 +373,7 @@ footer .footer_menu li a {
 		left: 3px;
 		width: 48px;
 		height: 48px;
-		padding: 16px;
+		padding: 15px;
 		z-index: 3;
 		background: none;
 		border: none;
@@ -427,6 +427,7 @@ footer .footer_menu li a {
 	.toggle span:nth-of-type(3) {
 		top: 28px;
 		right: 16px;
+		transform-origin: 100% 0;
 	}
 
 
