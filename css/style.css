@@ -413,10 +413,13 @@ footer .footer_menu li a {
 		transition-delay: 0s;
 	}
 	.toggle span:nth-of-type(1) {
-		top: 16;
-		right: 16;
+		top: 16px;
+		right: 16px;
 		transform-origin: 0 0;
 		transition-delay: .3s;
+	}
+	.toggle span:nth-of-type(2) {
+		top: 22px;
 	}
 
 
