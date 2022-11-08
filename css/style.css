@@ -407,7 +407,7 @@ footer .footer_menu li a {
 	}
 	.toggle::after {
 		top: 30px;
-		left: 8px;
+		left: 18px;
 		transform-origin: 0 100%;
 		transform: rotate(-45deg) scaleX(0);
 		transition-delay: 0s;
@@ -448,6 +448,7 @@ footer .footer_menu li a {
 
 	.toggle-menu {
 		display: block;
+		position: fixed;
 		opacity: 0;
 	}
 	.toggle-menu.active {
