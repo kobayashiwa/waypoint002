@@ -442,13 +442,10 @@ footer .footer_menu li a {
 		transform: scaleX(0);
 		transition-delay: 0s;
 	}
-
-
-
-
 	.toggle-menu {
 		display: block;
 		position: fixed;
+		top: 0;
 		opacity: 0;
 	}
 	.toggle-menu.active {
