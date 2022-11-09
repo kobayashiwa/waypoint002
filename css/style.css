@@ -449,10 +449,12 @@ footer .footer_menu li a {
 		left: 0;
 		transition: all .5s;
 		width: 100%;
-
-
-		background: #666;
 		opacity: 0;
+		background: #f2f2f2;
+
+
+		
+		
 	}
 	.toggle-menu.active {
 		opacity: 1;
