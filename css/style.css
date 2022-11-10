@@ -458,6 +458,11 @@ footer .footer_menu li a {
 	.toggle-menu.active {
 		opacity: 1;
 	}
+	.toggle-menu nav {
+		display: block;
+
+		
+	}
 }
 
 
