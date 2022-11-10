@@ -452,10 +452,8 @@ footer .footer_menu li a {
 		opacity: 0;
 		background: #f2f2f2;
 		z-index: 2;
-
-
-		
-		
+		overflow: auto;
+		-webkit-overflow-scrolling: touch;	
 	}
 	.toggle-menu.active {
 		opacity: 1;
