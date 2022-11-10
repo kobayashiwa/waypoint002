@@ -468,6 +468,7 @@ footer .footer_menu li a {
 	.toggle-menu nav ul li a {
 		text-align: left;
 		color: #2C2C2C;
+		line-height: 1;
 	}
 }
 
