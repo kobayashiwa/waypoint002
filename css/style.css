@@ -464,6 +464,7 @@ footer .footer_menu li a {
 	.toggle-menu nav ul li {
 		flex-direction: column;
 		width: 100%;
+		border-bottom: 1px solid rgba(0,0,0,.1);
 	}
 	.toggle-menu nav ul li a {
 		text-align: left;
