@@ -168,7 +168,7 @@
                         <div class="l-box">
                             <div class="img-container"><img class="img-container__img" src="img/ui_image.png"></div>
                         </div>
-                        <div class="r-box">
+                        <div class="r-box text-container">
                             <h2>Skype の地域番号とは?</h2>
                             <p class="number_intro">Skype 番号は、Skype アカウントに関連付けられている 2 番目の電話番号です。 Skype アプリでどこからでも着信に応答できます。携帯電話や固定電話から電話をかけたり、Skype で通話することができます。</p>
                             <ul>
@@ -332,7 +332,7 @@
             });
         });
             $(function(){
-                $('.animation-box').waypoint(function(direction){
+                $('.img-container').waypoint(function(direction){
                     var activePoint = $(this.element);
                     if (direction === 'down') {　//scroll down
                         activePoint.addClass('active');
@@ -345,6 +345,18 @@
         </script>
     </body>
 </html>
+
+
+
+    var activePoint = $(this.element);
+    //scroll down
+    if (direction === 'down') {
+        activePoint.addClass('active');
+    }
+    else{
+        activePoint.removeClass('active');
+    }
+},{offset : '70%'});
      
 
     
