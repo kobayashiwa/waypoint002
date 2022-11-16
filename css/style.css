@@ -464,12 +464,13 @@ footer .footer_menu li a {
 .img-container{
     overflow: hidden;
 }
-
-
-
-.animation-box{
-    transition:.5s;
+.img-container__img{
+    display: block;
 }
+
+
+
+
 .animation-box.active{
     background: #fafafa;
     color: #2C2C2C;
@@ -477,6 +478,16 @@ footer .footer_menu li a {
 .bg-black.animation-box.active{
     background: #000;
 	color: #fff;
+}
+
+
+
+.yyyimg-container__img{
+    display: block;
+    opacity: 0;
+    position: relative;
+    transition:all .5s .3s ease; 
+    z-index: 0;
 }
 
 
