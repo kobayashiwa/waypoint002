@@ -474,6 +474,13 @@ footer .footer_menu li a {
 
 
 
+.img-container.active img{
+    opacity: 1;
+}
+
+
+
+
 
 
 
