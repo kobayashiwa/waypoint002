@@ -466,15 +466,13 @@ footer .footer_menu li a {
 }
 .img-container__img{
     display: block;
+	opacity: 0;
 }
 
 
 
 
-.animation-box.active{
-    background: #fafafa;
-    color: #2C2C2C;
-}
+
 .bg-black.animation-box.active{
     background: #000;
 	color: #fff;
