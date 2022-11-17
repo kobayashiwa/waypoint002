@@ -468,6 +468,7 @@ footer .footer_menu li a {
     display: block;
 	opacity: 0;
 	position: relative;
+	transition:all .5s .3s ease; 
 }
 
 
