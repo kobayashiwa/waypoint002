@@ -471,6 +471,9 @@ footer .footer_menu li a {
 	transition:all .5s .3s ease; 
 	z-index: 0;
 }
+.img-container:before{
+	background: #333;
+}
 
 
 
@@ -481,7 +484,17 @@ footer .footer_menu li a {
 
 
 
-
+aaa.img-container:before{
+    background: #333;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transform: translateX(-100%);
+    transition:all .8s 0s ease; 
+    width: 100%;
+    z-index: 1;     
+}
 
 
 
