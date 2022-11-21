@@ -475,6 +475,7 @@ footer .footer_menu li a {
 	background: #333;
 	content: '';
 	display: block;
+	height: 100%;
 }
 
 
