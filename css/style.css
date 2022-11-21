@@ -474,6 +474,7 @@ footer .footer_menu li a {
 .img-container:before{
 	background: #333;
 	content: '';
+	display: block;
 }
 
 
