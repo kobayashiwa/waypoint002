@@ -486,15 +486,14 @@ footer .footer_menu li a {
 	opacity: 0;
 	transition: all .8s .5s ease;
 }
-
-
-
-
 .img-container.active img{
     opacity: 1;
 }
 .img-container.active:before{
     transform: translateX(100%);        
+}
+.text-container.active{
+    opacity: 1;
 }
 
 
