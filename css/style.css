@@ -479,6 +479,7 @@ footer .footer_menu li a {
 	position: absolute;
 	transform: translateX(-100%);
 	transition:all .8s 0s ease; 
+	width: 100%;
 }
 
 
