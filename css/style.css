@@ -476,6 +476,7 @@ footer .footer_menu li a {
 	content: '';
 	display: block;
 	height: 100%;
+	position: absolute;
 }
 
 
