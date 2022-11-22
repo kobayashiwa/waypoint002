@@ -484,6 +484,7 @@ footer .footer_menu li a {
 }
 .text-container{
 	opacity: 0;
+	transition: all .8s .5s ease;
 }
 
 
@@ -499,11 +500,6 @@ footer .footer_menu li a {
 
 
 
-aaaaaa.text-container{
-    opacity: 0;
-    padding:0 60px;
-    transition: all .8s .5s ease;
-}
 
 
 
