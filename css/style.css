@@ -482,6 +482,9 @@ footer .footer_menu li a {
 	width: 100%;
 	z-index: 1;
 }
+.text-container{
+	opacity: 0;
+}
 
 
 
@@ -491,6 +494,15 @@ footer .footer_menu li a {
 }
 .img-container.active:before{
     transform: translateX(100%);        
+}
+
+
+
+
+aaaaaa.text-container{
+    opacity: 0;
+    padding:0 60px;
+    transition: all .8s .5s ease;
 }
 
 
